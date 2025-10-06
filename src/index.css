@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme {
+    --screen-xs: 20rem;   
+    --screen-sm: 35rem;   
+    --screen-md: 48rem;   
+    --screen-lg: 64rem;
+    --screen-xl: 80rem;   
+    --screen-2xl: 96rem;  
+}
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  transition: 0.3s ease;
+}
+
+/* :root {
+  --bg-main: #FFFFFF;
+  --bg-inv: #1A1A1A;
+  --bg-alt: #E9E9E9;
+  --text-main: #1A1A1A;
+  --text-inv: #FFFFFF;
+  --text-alt: #667085;
+  --border-clr: #AFAFAF;
+  --badge-bg: #F0ECFA;
+  --badge-text: #6941C6;
+}
+
+.dark {
+  --bg-main: #1A1A1A;
+  --bg-inv: #FFFFFF;
+  --bg-alt: #303030;
+  --text-main: #FFFFFF;
+  --text-inv: #1A1A1A;
+  --text-alt: #C0C5D0;
+  --border-clr: #3C3C3C;
+  --badge-bg: #6941C6;
+  --badge-text: #FFFFFF;
+}
+
+.bg-main {background-color: var(--bg-main);}
+.bg-inv {background-color: var(--bg-inv);}
+.bg-alt {background-color: var(--bg-alt);}
+.text-main {color: var(--text-main);}
+.text-inv {color: var(--text-inv);}
+.text-alt {color: var(--text-alt);}
+.border-clr { border-color: var(--border-clr);}
+.badge-bg {background-color: var(--bg-alt);}
+.badge-text {background-color: var(--bg-alt);}
+.fill-main {fill: var(--text-main);} */
+
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* xs ==> 20rem; ---- 320px */
+/* sm ==> 40rem; ---- 640px */
+/* md ==> 48rem; ---- 768px */
+/* lg ==> 64rem; ---- 1024px */
+/* xl ==> 80rem; ---- 1280px */
+/* 2xl => 96rem; ---- 1536px */

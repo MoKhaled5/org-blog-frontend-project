@@ -1,0 +1,391 @@
+{
+  "users": [
+    {
+      "id": "a303",
+      "username": "Ahmed Khalil",
+      "email": "ahmed.khalil@gmail.com",
+      "password": "ahmedpass1"
+    },
+    {
+      "id": "a304",
+      "username": "Fatima Hassan",
+      "email": "fatima.hassan@yahoo.com",
+      "password": "fatima_h_2024"
+    },
+    {
+      "id": "a305",
+      "username": "Omar Saeed",
+      "email": "omar.saeed@outlook.com",
+      "password": "saeedOmar!3"
+    },
+    {
+      "id": "a306",
+      "username": "Layla Adel",
+      "email": "layla.adel@gmail.com",
+      "password": "layla123adel"
+    },
+    {
+      "id": "a307",
+      "username": "Youssef Amir",
+      "email": "youssef.amir@gmail.com",
+      "password": "youssef#77"
+    },
+    {
+      "id": "a308",
+      "username": "Noor Mustafa",
+      "email": "noor.mustafa@yahoo.com",
+      "password": "noor_mustafa_8"
+    },
+    {
+      "id": "a309",
+      "username": "Tariq Ibrahim",
+      "email": "tariq.ibrahim@outlook.com",
+      "password": "tariqIbrahim9"
+    },
+    {
+      "id": "a310",
+      "username": "Salma Jamal",
+      "email": "salma.jamal@gmail.com",
+      "password": "salma_jamal_10"
+    },
+    {
+      "id": "a311",
+      "username": "Karim Fahmy",
+      "email": "karim.fahmy@gmail.com",
+      "password": "fahmyKarim!11"
+    },
+    {
+      "id": "a312",
+      "username": "Hana Rady",
+      "email": "hana.rady@yahoo.com",
+      "password": "hana12rady"
+    },
+    {
+      "id": "a313",
+      "username": "Mahmoud Said",
+      "email": "mahmoud.said@outlook.com",
+      "password": "saidMahmoud_13"
+    },
+    {
+      "id": "a314",
+      "username": "Aisha Farouk",
+      "email": "aisha.farouk@gmail.com",
+      "password": "farouk_aisha_14"
+    },
+    {
+      "id": "a315",
+      "username": "Ali Nasser",
+      "email": "ali.nasser@gmail.com",
+      "password": "nasserOfAli#15"
+    },
+    {
+      "id": "a316",
+      "username": "Mariam Kamal",
+      "email": "mariam.kamal@yahoo.com",
+      "password": "kamalMariam16"
+    },
+    {
+      "id": "a317",
+      "username": "Zayn Abbas",
+      "email": "zayn.abbas@outlook.com",
+      "password": "zayn*abbas*17"
+    },
+    {
+      "id": "a318",
+      "username": "Jana Tarek",
+      "email": "jana.tarek@gmail.com",
+      "password": "tarek_jana_18"
+    },
+    {
+      "id": "a319",
+      "username": "Khaled Mansour",
+      "email": "khaled.mansour@gmail.com",
+      "password": "mansourKhaled!19"
+    },
+    {
+      "id": "a320",
+      "username": "Dina Sherif",
+      "email": "dina.sherif@yahoo.com",
+      "password": "sherifDina_20"
+    },
+    {
+      "id": "a321",
+      "username": "Ibrahim Fawzy",
+      "email": "ibrahim.fawzy@outlook.com",
+      "password": "fawzy_ibrahim_21"
+    },
+    {
+      "id": "a322",
+      "username": "Sara Ramzy",
+      "email": "sara.ramzy@gmail.com",
+      "password": "ramzySara@22"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1759752001",
+      "title": "Arsenal's Title Hopes: A Mid-Season Analysis",
+      "description": "With a strong start to the season, we break down Arsenal's chances of finally winning the Premier League. Key players, tactical shifts, and upcoming fixtures.",
+      "image_url": "https://assets.goal.com/images/v3/blt324f588425d2e7b1/crop/MM5DGNJYGA5DEMBRGQ5G433XMU5DINJQHIYTOMY=/GettyImages-2236112068.jpg?auto=webp&format=pjpg&width=1080&quality=60",
+      "author_id": "a303",
+      "author_name": "Ahmed Khalil",
+      "created_at": "2025-10-01T15:10:00Z",
+      "formatted_date": "01 Oct 2025",
+      "formatted_time": "06:10 PM"
+    },
+    {
+      "id": "post_1759752003",
+      "title": "The Rise of Next.js in Modern Web Development",
+      "description": "An in-depth look at why Next.js is becoming the go-to framework for React developers. We cover server-side rendering, static site generation, and performance benefits.",
+      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&h=300&fit=crop",
+      "author_id": "a304",
+      "author_name": "Fatima Hassan",
+      "created_at": "2025-10-05T09:30:00Z",
+      "formatted_date": "05 Oct 2025",
+      "formatted_time": "12:30 PM"
+    },
+    {
+      "id": "post_1759752004",
+      "title": "Creating Intuitive User Interfaces: A UI/UX Guide",
+      "description": "Good design is invisible. This guide walks through the core principles of creating user interfaces that are both beautiful and easy to navigate.",
+      "image_url": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=500&h=300&fit=crop",
+      "author_id": "a304",
+      "author_name": "Fatima Hassan",
+      "created_at": "2025-09-27T18:00:00Z",
+      "formatted_date": "27 Sep 2025",
+      "formatted_time": "09:00 PM"
+    },
+
+    {
+      "id": "post_1759752006",
+      "title": "The Psychology of Color in Logo Design",
+      "description": "Colors evoke emotions and can significantly impact brand perception. Learn how to choose the right color palette for your next logo project to convey the right message.",
+      "image_url": "https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?w=500&h=300&fit=crop",
+      "author_id": "a306",
+      "author_name": "Layla Adel",
+      "created_at": "2025-09-29T14:20:00Z",
+      "formatted_date": "29 Sep 2025",
+      "formatted_time": "05:20 PM"
+    },
+    {
+      "id": "post_1759752007",
+      "title": "Mastering CSS Flexbox: A Practical Guide",
+      "description": "Forget floating elements. This comprehensive guide covers everything you need to know about Flexbox to create complex, responsive layouts with ease.",
+      "image_url": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=500&h=300&fit=crop",
+      "author_id": "a307",
+      "author_name": "Youssef Amir",
+      "created_at": "2025-10-02T08:00:00Z",
+      "formatted_date": "02 Oct 2025",
+      "formatted_time": "11:00 AM"
+    },
+    {
+      "id": "post_1759752008",
+      "title": "User Personas: A Crucial Step in UX Design",
+      "description": "Learn how to conduct research and create detailed user personas to guide your design decisions and build products that people truly love.",
+      "image_url": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&h=300&fit=crop",
+      "author_id": "a307",
+      "author_name": "Youssef Amir",
+      "created_at": "2025-09-26T12:00:00Z",
+      "formatted_date": "26 Sep 2025",
+      "formatted_time": "03:00 PM"
+    },
+    {
+      "id": "post_1759752010",
+      "title": "Vintage & Retro Logo Design Trends",
+      "description": "Nostalgia sells. Discover how to create authentic-looking vintage and retro logos that stand out in the modern market. Includes font and texture tips.",
+      "image_url": "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500&h=300&fit=crop",
+      "author_id": "a309",
+      "author_name": "Tariq Ibrahim",
+      "created_at": "2025-09-30T16:55:00Z",
+      "formatted_date": "30 Sep 2025",
+      "formatted_time": "07:55 PM"
+    },
+    {
+      "id": "post_1759752011",
+      "title": "JavaScript Frameworks in 2025: React vs. Vue vs. Svelte",
+      "description": "The front-end landscape is always changing. We compare the top JavaScript frameworks on performance, learning curve, and ecosystem to help you choose the right one.",
+      "image_url": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=500&h=300&fit=crop",
+      "author_id": "a309",
+      "author_name": "Tariq Ibrahim",
+      "created_at": "2025-10-03T11:20:00Z",
+      "formatted_date": "03 Oct 2025",
+      "formatted_time": "02:20 PM"
+    },
+    {
+      "id": "post_1759752012",
+      "title": "The Art of Wireframing in UX Design",
+      "description": "Before you write a single line of code, you need a solid plan. This post covers the importance of wireframing and how to create effective blueprints for your website or app.",
+      "image_url": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&h=300&fit=crop",
+      "author_id": "a310",
+      "author_name": "Salma Jamal",
+      "created_at": "2025-09-25T09:00:00Z",
+      "formatted_date": "25 Sep 2025",
+      "formatted_time": "12:00 PM"
+    },
+    {
+      "id": "post_1759752013",
+      "title": "Liverpool's Midfield Overhaul: Has it Paid Off?",
+      "description": "After a summer of significant changes, we assess the performance of Liverpool's new-look midfield. Are they back to their energetic, high-pressing best?",
+      "image_url": "https://www.thisisanfield.com/wp-content/uploads/midfield2.0edit-600x400.jpg",
+      "author_id": "a311",
+      "author_name": "Karim Fahmy",
+      "created_at": "2025-10-06T08:45:00Z",
+      "formatted_date": "06 Oct 2025",
+      "formatted_time": "11:45 AM"
+    },
+    {
+      "id": "post_1759752014",
+      "title": "Typography in Logo Design: Choosing the Perfect Font",
+      "description": "The font you choose can make or break your logo. A guide to understanding different font types and how to select one that perfectly represents a brand's personality.",
+      "image_url": "https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?w=500&h=300&fit=crop",
+      "author_id": "a311",
+      "author_name": "Karim Fahmy",
+      "created_at": "2025-10-01T18:30:00Z",
+      "formatted_date": "01 Oct 2025",
+      "formatted_time": "09:30 PM"
+    },
+    {
+      "id": "post_1759752015",
+      "title": "State Management with Zustand in React",
+      "description": "Tired of Redux boilerplate? Discover Zustand, a small, fast, and scalable state management solution for React that simplifies your application's logic.",
+      "image_url": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=500&h=300&fit=crop",
+      "author_id": "a312",
+      "author_name": "Hana Rady",
+      "created_at": "2025-09-28T13:00:00Z",
+      "formatted_date": "28 Sep 2025",
+      "formatted_time": "04:00 PM"
+    },
+    {
+      "id": "post_1759752016",
+      "title": "A/B Testing in UX: How to Make Data-Driven Decisions",
+      "description": "Stop guessing what users want. This article explains how to set up and run effective A/B tests to improve your designs based on real user behavior.",
+      "image_url": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=500&h=300&fit=crop",
+      "author_id": "a313",
+      "author_name": "Mahmoud Said",
+      "created_at": "2025-10-04T12:15:00Z",
+      "formatted_date": "04 Oct 2025",
+      "formatted_time": "03:15 PM"
+    },
+    {
+      "id": "post_1759752017",
+      "title": "Fantasy Premier League: Underrated Gems for Your Team",
+      "description": "Looking for differential picks to climb your mini-league? We've identified some low-ownership players who could deliver big points in the upcoming gameweeks.",
+      "image_url": "https://www.fantasyfootballfix.com/media/images/Screenshot_2025-08-05_at_09.23.3.width-1200.format-webp.webp",
+      "author_id": "a314",
+      "author_name": "Aisha Farouk",
+      "created_at": "2025-09-27T21:00:00Z",
+      "formatted_date": "27 Sep 2025",
+      "formatted_time": "12:00 AM"
+    },
+    {
+      "id": "post_1759752018",
+      "title": "Minimalist Logo Design: The 'Less is More' Approach",
+      "description": "Exploring the power of simplicity in logo design. This post showcases famous minimalist logos and provides tips for creating your own impactful, clean design.",
+      "image_url": "https://inkbotdesign.com/wp-content/uploads/2019/06/minimal-logos.jpg.webp",
+      "author_id": "a314",
+      "author_name": "Aisha Farouk",
+      "created_at": "2025-10-05T16:00:00Z",
+      "formatted_date": "05 Oct 2025",
+      "formatted_time": "07:00 PM"
+    },
+    {
+      "id": "post_1759752019",
+      "title": "The Rise of Next.js in Modern Web Development",
+      "description": "An in-depth look at why Next.js is becoming the go-to framework for React developers. We cover server-side rendering, static site generation, and performance benefits.",
+      "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&h=300&fit=crop",
+      "author_id": "a315",
+      "author_name": "Ali Nasser",
+      "created_at": "2025-10-02T10:40:00Z",
+      "formatted_date": "02 Oct 2025",
+      "formatted_time": "01:40 PM"
+    },
+    {
+      "id": "post_1759752020",
+      "title": "Creating Intuitive User Interfaces: A UI/UX Guide",
+      "description": "Good design is invisible. This guide walks through the core principles of creating user interfaces that are both beautiful and easy to navigate.",
+      "image_url": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=500&h=300&fit=crop",
+      "author_id": "a316",
+      "author_name": "Mariam Kamal",
+      "created_at": "2025-09-29T09:00:00Z",
+      "formatted_date": "29 Sep 2025",
+      "formatted_time": "12:00 PM"
+    },
+    {
+      "id": "post_1759752021",
+      "title": "Premier League Top Scorers: Who Will Win the Golden Boot?",
+      "description": "Analyzing the performance of the league's top strikers. A deep dive into the stats, form, and fixtures to predict this season's Golden Boot winner.",
+      "image_url": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2025-04/Haaland-Salah-04112025.png.webp?itok=9SP5r27S",
+      "author_id": "a317",
+      "author_name": "Zayn Abbas",
+      "created_at": "2025-10-03T22:00:00Z",
+      "formatted_date": "04 Oct 2025",
+      "formatted_time": "01:00 AM"
+    },
+    {
+      "id": "post_1759752022",
+      "title": "The Psychology of Color in Logo Design",
+      "description": "Colors evoke emotions and can significantly impact brand perception. Learn how to choose the right color palette for your next logo project to convey the right message.",
+      "image_url": "https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?w=500&h=300&fit=crop",
+      "author_id": "a317",
+      "author_name": "Zayn Abbas",
+      "created_at": "2025-09-26T17:30:00Z",
+      "formatted_date": "26 Sep 2025",
+      "formatted_time": "08:30 PM"
+    },
+    {
+      "id": "post_1759752024",
+      "title": "User Personas: A Crucial Step in UX Design",
+      "description": "Learn how to conduct research and create detailed user personas to guide your design decisions and build products that people truly love.",
+      "image_url": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=500&h=300&fit=crop",
+      "author_id": "a319",
+      "author_name": "Khaled Mansour",
+      "created_at": "2025-09-30T10:10:00Z",
+      "formatted_date": "30 Sep 2025",
+      "formatted_time": "01:10 PM"
+    },
+    {
+      "id": "post_1759752025",
+      "title": "Manchester United's Rebuild: Progress Under the New Manager",
+      "description": "A tactical breakdown of Manchester United's season so far. Are they on the right track to challenge for titles again? We look at the signings, strategy, and results.",
+      "image_url": "https://substackcdn.com/image/fetch/$s_!EDyH!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffdb08099-ec6b-4237-b435-898fca9738b4_720x405.webp",
+      "author_id": "a320",
+      "author_name": "Dina Sherif",
+      "created_at": "2025-10-05T14:00:00Z",
+      "formatted_date": "05 Oct 2025",
+      "formatted_time": "05:00 PM"
+    },
+    {
+      "id": "post_1759752026",
+      "title": "Vintage & Retro Logo Design Trends",
+      "description": "Nostalgia sells. Discover how to create authentic-looking vintage and retro logos that stand out in the modern market. Includes font and texture tips.",
+      "image_url": "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=500&h=300&fit=crop",
+      "author_id": "a320",
+      "author_name": "Dina Sherif",
+      "created_at": "2025-09-27T11:25:00Z",
+      "formatted_date": "27 Sep 2025",
+      "formatted_time": "02:25 PM"
+    },
+    {
+      "id": "post_1759752028",
+      "title": "The Art of Wireframing in UX Design",
+      "description": "Before you write a single line of code, you need a solid plan. This post covers the importance of wireframing and how to create effective blueprints for your website or app.",
+      "image_url": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&h=300&fit=crop",
+      "author_id": "a322",
+      "author_name": "Sara Ramzy",
+      "created_at": "2025-10-06T11:00:00Z",
+      "formatted_date": "06 Oct 2025",
+      "formatted_time": "02:00 PM"
+    }
+  ],
+  "sessions": []
+}
+
+
+
+
+
+
+
+
+
+
