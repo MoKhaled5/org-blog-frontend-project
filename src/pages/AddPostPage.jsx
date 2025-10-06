@@ -63,7 +63,7 @@ export default function AddEditPostPage() {
         formatted_time: formattedTime,
       };
 
-      await axios.post('import.meta.env.VITE_API_BASE_URL/posts', newPost)
+      await axios.post(`${import.meta.env.VITE_API_BASE_URL}/posts`, newPost);
       await getPosts()
       toast.success('Post added successfully!')
       resetForm()

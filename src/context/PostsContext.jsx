@@ -9,7 +9,7 @@ export function PostsProvider({ children }) {
 
   async function getPosts() {
     try {
-      const response = await axios.get("import.meta.env.VITE_API_BASE_URL/posts");
+      const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/posts`);
 
       const sortedPosts = response.data.sort(
         (a, b) => new Date(b.created_at) - new Date(a.created_at)
@@ -25,7 +25,7 @@ export function PostsProvider({ children }) {
 
   async function deletePost(postId) {
     try {
-      await axios.delete(`import.meta.env.VITE_API_BASE_URL/posts/${postId}`);
+      await axios.delete(`${import.meta.env.VITE_API_BASE_URL}/posts/${postId}`);
       
       setPosts((prevPosts) => prevPosts.filter((post) => post.id !== postId));
 
