@@ -30,7 +30,7 @@ export default function EditPostPage() {
       }
 
       try {
-        const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/posts/${postId}`);
+        const response = await axios.get(`http://localhost:3000/posts/${postId}`);
         
         if (!response.data) {
           throw new Error('Post not found');
@@ -58,10 +58,10 @@ export default function EditPostPage() {
 
   const validationSchema = Yup.object({
     postTitle: Yup.string()
-      .max(30, 'Title must be at most 30 characters')
+      .max(50, 'Title must be at most 50 characters')
       .required('Title is required'),
     postDescription: Yup.string()
-      .max(100, 'Description must be at most 100 characters')
+      .max(150, 'Description must be at most 150 characters')
       .required('Description is required'),
     image: Yup.mixed()
       .nullable()
@@ -92,7 +92,7 @@ export default function EditPostPage() {
         image_url: imageUrl,
       };
 
-      await axios.put(`${import.meta.env.VITE_API_BASE_URL}/posts/${postId}`, updatedPost);
+      await axios.put(`http://localhost:3000/posts/${postId}`, updatedPost);
       await getPosts();
       toast.success('Post updated successfully!');
       navigate('/');

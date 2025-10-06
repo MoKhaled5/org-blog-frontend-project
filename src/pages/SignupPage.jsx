@@ -46,7 +46,7 @@ export default function SignupPage() {
     const handleSubmit = async (values, { setSubmitting, setFieldError, resetForm }) => {
         setFormStatus(null); 
         try {
-            const checkEmailResponse = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/users?email=${values.email}`);
+            const checkEmailResponse = await axios.get(`http://localhost:3000/users?email=${values.email}`);
             if (checkEmailResponse.data.length > 0) {
                 setFieldError('email', 'This email is already registered.');
                 toast.error('This email is already registered.');
@@ -58,8 +58,7 @@ export default function SignupPage() {
                     password: values.password,
                 };
 
-                await axios.post(`${import.meta.env.VITE_API_BASE_URL}/users`, newUser);
-
+                await axios.post('http://localhost:3000/users', newUser);
                 toast.success('Signup successful Redirecting to login');
                 resetForm();
                 setTimeout(() => navigate('/login'), 1500);
@@ -109,7 +108,7 @@ export default function SignupPage() {
                                         name='username'
                                         placeholder='Enter your username'
                                     />
-                                    <ErrorMessage name='username' component='div' className='text-red-500 text-sm mt-1 bg-[aqua]' />
+                                    <ErrorMessage name='username' component='div' className='text-red-500 text-sm mt-1' />
                                 </div>
 
                                 <div className='mb-5'>

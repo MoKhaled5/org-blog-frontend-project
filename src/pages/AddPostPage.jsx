@@ -7,11 +7,13 @@ import { usePosts } from '../context/PostsContext'
 import { useAuth } from '../context/AuthContext'
 import { toast } from 'react-toastify';
 import '../../node_modules/react-toastify/dist/ReactToastify.css';
-
+import { useNavigate } from 'react-router-dom'
 
 export default function AddEditPostPage() {
   const { getPosts } = usePosts();
   const { user } = useAuth();
+  const navigate = useNavigate();
+  
 
 
   const initialValues = {
@@ -22,10 +24,10 @@ export default function AddEditPostPage() {
 
   const validationSchema = Yup.object({
     postTitle: Yup.string()
-      .max(30, 'Title must be at most 30 characters')
+      .max(50, 'Title must be at most 50 characters')
       .required('Title is required'),
     postDescription: Yup.string()
-      .max(100, 'Description must be at most 100 characters')
+      .max(150, 'Description must be at most 150 characters')
       .required('Description is required'),
     image: Yup.mixed()
       .nullable()
@@ -63,9 +65,10 @@ export default function AddEditPostPage() {
         formatted_time: formattedTime,
       };
 
-      await axios.post(`${import.meta.env.VITE_API_BASE_URL}/posts`, newPost);
+      await axios.post('http://localhost:3000/posts', newPost);
       await getPosts()
       toast.success('Post added successfully!')
+      navigate('/');
       resetForm()
     } 
     catch (error) {

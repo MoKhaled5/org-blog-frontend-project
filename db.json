@@ -119,6 +119,18 @@
       "username": "Sara Ramzy",
       "email": "sara.ramzy@gmail.com",
       "password": "ramzySara@22"
+    },
+    {
+      "id": "6cb0",
+      "username": "test1",
+      "email": "test1@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "c23a",
+      "username": "Morigami123",
+      "email": "morigami1233@gmail.com",
+      "password": "morigami123"
     }
   ],
   "posts": [
@@ -155,7 +167,6 @@
       "formatted_date": "27 Sep 2025",
       "formatted_time": "09:00 PM"
     },
-
     {
       "id": "post_1759752006",
       "title": "The Psychology of Color in Logo Design",
@@ -375,17 +386,18 @@
       "created_at": "2025-10-06T11:00:00Z",
       "formatted_date": "06 Oct 2025",
       "formatted_time": "02:00 PM"
+    },
+    {
+      "id": "1759751824386",
+      "title": "Information about Mohammed Khaled (Org)",
+      "description": "Hello, I am Mohamed Khaled, known as Org. I am a front-end developer, a UI/UX designer, and a graphic designer, and I love handmade crafts.",
+      "image_url": "https://i.ibb.co/HfK3351F/Org-Image.png",
+      "author_id": "c23a",
+      "author_name": "Morigami123",
+      "created_at": "2025-10-06T11:57:04.385Z",
+      "formatted_date": "06 Oct 2025",
+      "formatted_time": "02:57 PM"
     }
   ],
   "sessions": []
 }
-
-
-
-
-
-
-
-
-
-
