@@ -30,7 +30,7 @@ export default function EditPostPage() {
       }
 
       try {
-        const response = await axios.get(`http://localhost:3000/posts/${postId}`);
+        const response = await axios.get(`import.meta.env.VITE_API_BASE_URL/posts/${postId}`);
         
         if (!response.data) {
           throw new Error('Post not found');
@@ -92,7 +92,7 @@ export default function EditPostPage() {
         image_url: imageUrl,
       };
 
-      await axios.put(`http://localhost:3000/posts/${postId}`, updatedPost);
+      await axios.put(`import.meta.env.VITE_API_BASE_URL/posts/${postId}`, updatedPost);
       await getPosts();
       toast.success('Post updated successfully!');
       navigate('/');
