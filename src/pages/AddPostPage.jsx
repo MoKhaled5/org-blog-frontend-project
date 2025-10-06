@@ -65,7 +65,7 @@ export default function AddEditPostPage() {
         formatted_time: formattedTime,
       };
 
-      await axios.post('http://localhost:3000/posts', newPost);
+      await axios.post('https://org-blog-frontend-project-production.up.railway.app/posts', newPost);
       await getPosts()
       toast.success('Post added successfully!')
       navigate('/');

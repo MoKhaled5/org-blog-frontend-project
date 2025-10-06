@@ -46,7 +46,8 @@ export default function SignupPage() {
     const handleSubmit = async (values, { setSubmitting, setFieldError, resetForm }) => {
         setFormStatus(null); 
         try {
-            const checkEmailResponse = await axios.get(`http://localhost:3000/users?email=${values.email}`);
+            const checkEmailResponse = await axios.get(`https://org-blog-frontend-project-production.up.railway.app/users?email=${values.email}`);
+            
             if (checkEmailResponse.data.length > 0) {
                 setFieldError('email', 'This email is already registered.');
                 toast.error('This email is already registered.');
@@ -58,7 +59,7 @@ export default function SignupPage() {
                     password: values.password,
                 };
 
-                await axios.post('http://localhost:3000/users', newUser);
+                await axios.post('https://org-blog-frontend-project-production.up.railway.app/users', newUser);
                 toast.success('Signup successful Redirecting to login');
                 resetForm();
                 setTimeout(() => navigate('/login'), 1500);

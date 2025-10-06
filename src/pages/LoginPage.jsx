@@ -32,7 +32,7 @@ export default function LoginPage() {
     const handleSubmit = async (values, { setSubmitting, resetForm }) => {
         setFormStatus(null);
         try {
-                const response = await axios.get(`http://localhost:3000/users?email=${values.email}&password=${values.password}`);
+                const response = await axios.get(`https://org-blog-frontend-project-production.up.railway.app/users?email=${values.email}&password=${values.password}`);
             
             if (response.data.length > 0) {
                 const user = response.data[0];

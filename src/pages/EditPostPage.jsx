@@ -30,7 +30,7 @@ export default function EditPostPage() {
       }
 
       try {
-        const response = await axios.get(`http://localhost:3000/posts/${postId}`);
+        const response = await axios.get(`https://org-blog-frontend-project-production.up.railway.app/posts/${postId}`);
         
         if (!response.data) {
           throw new Error('Post not found');
@@ -92,7 +92,7 @@ export default function EditPostPage() {
         image_url: imageUrl,
       };
 
-      await axios.put(`http://localhost:3000/posts/${postId}`, updatedPost);
+      axios.put(`https://org-blog-frontend-project-production.up.railway.app/posts/${postId}`, updatedPost);
       await getPosts();
       toast.success('Post updated successfully!');
       navigate('/');

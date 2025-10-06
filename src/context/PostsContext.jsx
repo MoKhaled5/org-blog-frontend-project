@@ -9,7 +9,7 @@ export function PostsProvider({ children }) {
 
   async function getPosts() {
     try {
-      const response = await axios.get('http://localhost:3000/posts');
+      const response = await axios.get('https://org-blog-frontend-project-production.up.railway.app/posts');
 
       const sortedPosts = response.data.sort(
         (a, b) => new Date(b.created_at) - new Date(a.created_at)
@@ -25,7 +25,8 @@ export function PostsProvider({ children }) {
 
   async function deletePost(postId) {
     try {
-      await axios.delete(`http://localhost:3000/posts/${postId}`);
+      await axios.delete(`https://org-blog-frontend-project-production.up.railway.app/posts/${postId}`);
+
       
       setPosts((prevPosts) => prevPosts.filter((post) => post.id !== postId));
 
